@@ -549,6 +549,7 @@ big {
   -o-transition: color 300ms;
   -webkit-transition: color 300ms;
   transition: color 300ms;
+  border-bottom: none;
 }
 
 .main-navigation ul > li:last-child a {
