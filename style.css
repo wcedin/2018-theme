@@ -977,7 +977,7 @@ hgroup h2.site-description {
   position: relative;
   background: url('//2017.edinburgh.wordcamp.org/files/2017/06/bg-mobile-hero.png') no-repeat top left;
   background-size: cover;
-  z-index: -1;
+  z-index: 1;
 }
 
 @media (max-width: 616px) {
