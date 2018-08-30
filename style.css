@@ -404,6 +404,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3.1em;
   line-height: 1.25;
+  margin-top: 4px;
 }
 
 h1 a {
@@ -1205,7 +1206,7 @@ hgroup h2.site-description {
 	  -webkit-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
 	  -moz-box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
 	  box-shadow: 0px 0px 10px 0px rgba(102,102,102,1);
-	  margin-bottom: 1em;
+	  margin-bottom: 3rem;
 	}
 	
 	#homepage-hero:before {
