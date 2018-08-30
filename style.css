@@ -1285,6 +1285,27 @@ hgroup h2.site-description {
 	
 }
 
+.hero-buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto -30px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hero-buttons a.hero-button {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 1em 2em;
+  border: 4px solid #fff;
+  border-radius: 3px;
+  margin: 0 10px;
+}
+
 /*--------------------------------------------------------------
 # Columns
 --------------------------------------------------------------*/
