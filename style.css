@@ -1306,6 +1306,7 @@ hgroup h2.site-description {
 }
 
 .hero-buttons {
+  display: none;
   position: absolute;
   bottom: 0;
   left: 0;
