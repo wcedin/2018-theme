@@ -1223,6 +1223,15 @@ hgroup h2.site-description {
     background: url('https://2018.edinburgh.wordcamp.org/files/2018/09/hero-waterfall.png') no-repeat top center;
     background-size: contain;
   }
+  #hero-rainbow {
+    position: absolute;
+    top: 24%;
+    bottom: 8%;
+    left: 14%;
+    right: 0;
+    background: url('https://2018.edinburgh.wordcamp.org/files/2018/09/hero-rainbow.png') no-repeat center center;
+      background-size: contain;
+  }
   #hero-title {
     position: absolute;
     top: 0;
@@ -1234,10 +1243,10 @@ hgroup h2.site-description {
   }
 
 	#hero-unicorn {
-		top: 19%;
-		left: 43%;
-		height: 54%;
-		width: 14.1%;
+    top: 41%;
+    left: 45%;
+    height: 54%;
+    width: 10%;
 		animation-name: floating;
 		-webkit-animation-name: floating;
 		animation-duration: 3s;
@@ -1297,10 +1306,10 @@ hgroup h2.site-description {
 		left: 38.2%;
 	}
 
-	#homepage-hero #star4 {
-		top: 57.9%;
-		left: 54.7%;
-	}
+  #homepage-hero #star4 {
+    top: 61.5%;
+    left: 58%;
+  }
 
 	#homepage-hero #star5 {
 		top: 58.3%;
