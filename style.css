@@ -1005,10 +1005,10 @@ hgroup h2.site-description {
 
 #hero-unicorn {
 	position: absolute;
-	top: 2.5%;
-	left: 35%;
-	height: 45%;
-	width: 30%;
+  top: 44%;
+  left: 45%;
+  height: 50%;
+  width: 12%;
 	
 	animation-name: floating;
 	-webkit-animation-name: floating;
@@ -1058,17 +1058,17 @@ hgroup h2.site-description {
 }
 
 @keyframes tipping {
-	0% {
-		transform: rotate(0deg);
-	}
-	
-	60% {
-		transform: rotate(5deg);
-	}
-	
-	100% {
-		transform: rotate(0deg);
-	}
+  0% {
+    transform: rotate(20deg);
+  }
+  
+  60% {
+    transform: rotate(30deg);
+  }
+  
+  100% {
+    transform: rotate(20deg);
+  }
 }
 
 @-webkit-keyframes tipping {
