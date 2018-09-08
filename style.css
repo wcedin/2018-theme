@@ -1223,6 +1223,15 @@ hgroup h2.site-description {
     background: url('https://2018.edinburgh.wordcamp.org/files/2018/09/hero-waterfall.png') no-repeat top center;
     background-size: contain;
   }
+  #hero-title {
+    position: absolute;
+    top: 0;
+    bottom: 60%;
+    left: 30%;
+    right: 30%;
+    background: url('https://2018.edinburgh.wordcamp.org/files/2018/09/hero-title.png') no-repeat center center;
+    background-size: contain;
+  }
 
 	#hero-unicorn {
 		top: 19%;
