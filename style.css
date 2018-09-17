@@ -1409,6 +1409,33 @@ hgroup h2.site-description {
 
 
 /*--------------------------------------------------------------
+# Organisers
+--------------------------------------------------------------*/
+.wcorg-organizers {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.wcorg-organizers > .wcorg-organizer {
+  flex-basis: 31%;
+	text-align: center;
+	margin: 15px 0;
+}
+.wcorg-organizers h2 {
+	line-height: 1em;
+}
+.wcorg-organizers img {
+	border-radius: 50%;
+}
+
+@media (max-width: 616px) {
+	.wcorg-organizers > .wcorg-organizer {
+		flex-basis: 100%;
+	}
+}
+
+/*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 
