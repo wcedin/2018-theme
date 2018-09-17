@@ -402,9 +402,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3.1em;
-  line-height: 1.25;
-  margin-top: 4px;
+	line-height: 1.25;
+	margin-top: 15px;
+}
+@media (min-width: 617px) {
+	h1 {
+		font-size: 3.1em;
+	}
 }
 
 h1 a {
