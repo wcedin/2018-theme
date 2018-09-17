@@ -614,7 +614,7 @@ big {
 }
 
 .main-navigation ul ul {
-  background: #392420;
+  background: #333;
   display: none;
   padding: .66667rem 1.125rem;
   position: absolute;
@@ -718,6 +718,7 @@ big {
 
 .main-small-navigation #menu-menu-1 {
 	position: relative;
+	z-index: 5;
 	top: -23px;
 	background: #d14616;
 	text-align: center;
