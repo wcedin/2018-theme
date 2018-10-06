@@ -1174,8 +1174,8 @@ hgroup h2.site-description {
 #hero-waterfall {
 	position: absolute;
 	top: 0;
-	left: 6%;
-	right: 6%;
+	left: 11.5%;
+	right: 5%;
 	bottom: 8%;
 	/*background: url('https://2018.edinburgh.wordcamp.org/files/2018/09/hero-waterfall.png') no-repeat top center;
 	background-size: contain;*/
@@ -1208,8 +1208,8 @@ hgroup h2.site-description {
 	}
 
   #hero-waterfall {
-    left: 38%;
-    right: 38%;
+	left: 39%;
+	right: 37%;
     bottom: 10%;
   }
   #hero-title {
