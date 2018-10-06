@@ -1245,15 +1245,6 @@ hgroup h2.site-description {
     right: 38%;
     bottom: 10%;
   }
-  #hero-rainbow {
-    position: absolute;
-    top: 24%;
-    bottom: 8%;
-    left: 14%;
-    right: 0;
-    background: url('https://2018.edinburgh.wordcamp.org/files/2018/09/hero-rainbow.png') no-repeat center center;
-      background-size: contain;
-  }
   #hero-title {
     bottom: 60%;
     left: 30%;
