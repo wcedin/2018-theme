@@ -1263,17 +1263,17 @@ hgroup h2.site-description {
 		-webkit-animation-iteration-count: infinite;
 	}
 	#homepage-hero .star.big {
-		height: 12px;
-		width: 12px;
-		border-radius: 6px;
+		height: 8px;
+		width: 8px;
+		border-radius: 4px;
 		
 		animation-duration: 2s;
 		-webkit-animation-duration: 2s;
 	}
 	#homepage-hero .star.medium {
-		height: 8px;
-		width: 8px;
-		border-radius: 4px;
+		height: 6px;
+		width: 6px;
+		border-radius: 3px;
 		
 		animation-duration: 3s;
 		-webkit-animation-duration: 3s;
