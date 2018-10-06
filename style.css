@@ -921,8 +921,7 @@ footer {
   background-image: url('https://2018.edinburgh.wordcamp.org/files/2018/10/landscape-footer.png');
   background-size: cover;
   background-position: center center;
-  height:500px;
-  
+  height:150px;
 }
 
 .site-info a:nth-child(2) {
@@ -1307,6 +1306,10 @@ hgroup h2.site-description {
 	#homepage-hero #star8 {
 		top: 57%;
 		left: 45%;
+	}
+
+	.site-info {
+	  height:500px;
 	}
 	
 }
