@@ -918,9 +918,10 @@ footer {
 
 .site-info {
   text-align: center;
-  background-image: url('https://2017.edinburgh.wordcamp.org/files/2017/05/footer.png');
+  background-image: url('https://2018.edinburgh.wordcamp.org/files/2018/10/landscape-footer.png');
   background-size: cover;
-  height:200px;
+  background-position: center center;
+  height:500px;
   
 }
 
