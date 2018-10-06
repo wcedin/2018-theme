@@ -1102,17 +1102,11 @@ hgroup h2.site-description {
 #homepage-hero .star.big {
 	height: 8%;
 	width: 8%;
-	-ms-transform: rotate(55deg); /* IE 9 */
-	-webkit-transform: rotate(55deg); /* Safari */
-	transform: rotate(55deg);
 }
 
 #homepage-hero .star.medium {
 	height: 6%;
 	width: 6%;
-	-ms-transform: rotate(25deg); /* IE 9 */
-	-webkit-transform: rotate(25deg); /* Safari */
-	transform: rotate(25deg);
 	
 	animation-name: tipping;
 	-webkit-animation-name: tipping;
@@ -1125,15 +1119,12 @@ hgroup h2.site-description {
 #homepage-hero .star.small {
 	height: 4%;
 	width: 4%;
-	-ms-transform: rotate(18deg); /* IE 9 */
-	-webkit-transform: rotate(18deg); /* Safari */
-	transform: rotate(18deg);
 	
 	animation-name: tossing;
 	-webkit-animation-name: tossing;	
 
-	animation-duration: 25s;	
-	-webkit-animation-duration: 25s;
+	animation-duration:25s;	
+	-webkit-animation-duration: 5s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
@@ -1174,27 +1165,15 @@ hgroup h2.site-description {
 
 
 @keyframes tossing {
-	0% {
-		transform: rotate(20deg);	
-	}
-	50% {
-		transform: rotate(180deg);
-	}
-	100% {
-		transform: rotate(20deg);	
-	}						
+	0% { transform: scale(1); }
+	50% { transform: scale(0); }
+	100% { transform: scale(1); }
 }
 
 @-webkit-keyframes tossing {
-	0% {
-		-webkit-transform: rotate(20deg);	
-	}
-	50% {
-		-webkit-transform: rotate(180deg);
-	}
-	100% {
-		-webkit-transform: rotate(20deg);	
-	}				
+	0% { transform: scale(1); }
+	50% { transform: scale(0); }
+	100% { transform: scale(1); }
 }
 
 
@@ -1277,29 +1256,35 @@ hgroup h2.site-description {
 	}
 
 	#homepage-hero .star {
-    background: #fff;
+   		background: #fff;
+		animation-name: tossing;
+		-webkit-animation-name: tossing;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
 	}
 	#homepage-hero .star.big {
 		height: 12px;
 		width: 12px;
 		border-radius: 6px;
+		
+		animation-duration: 2s;
+		-webkit-animation-duration: 2s;
 	}
 	#homepage-hero .star.medium {
 		height: 8px;
 		width: 8px;
 		border-radius: 4px;
+		
+		animation-duration: 3s;
+		-webkit-animation-duration: 3s;
 	}
 	#homepage-hero .star.small {
 		height: 4px;
 		width: 4px;
 		border-radius: 2px;
 		
-		animation-name: tossing;
-		-webkit-animation-name: tossing;
-		animation-duration: 25s;
-		-webkit-animation-duration: 25s;
-		animation-iteration-count: infinite;
-		-webkit-animation-iteration-count: infinite;
+		animation-duration: 5s;
+		-webkit-animation-duration: 5s;
 	}
 
 	#homepage-hero #star1 {
