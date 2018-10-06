@@ -1091,69 +1091,65 @@ hgroup h2.site-description {
 
 #homepage-hero .star {
 	position: absolute;
+	background: #fff;
+	animation-name: tossing;
+	-webkit-animation-name: tossing;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 }
 
 #homepage-hero .star.big {
-	height: 8%;
-	width: 8%;
+	height: 8px;
+	width: 8px;
+	border-radius: 4px;
+	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
 }
-
 #homepage-hero .star.medium {
-	height: 6%;
-	width: 6%;
-	
-	animation-name: tipping;
-	-webkit-animation-name: tipping;
+	height: 6px;
+	width: 6px;
+	border-radius: 3px;
 	animation-duration: 4s;
 	-webkit-animation-duration: 4s;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
 }
-
 #homepage-hero .star.small {
-	height: 4%;
-	width: 4%;
-	
-	animation-name: tossing;
-	-webkit-animation-name: tossing;	
-
-	animation-duration:5s;	
+	height: 4px;
+	width: 4px;
+	border-radius: 2px;
+	animation-duration: 5s;
 	-webkit-animation-duration: 5s;
-
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
 }
 
 #homepage-hero #star1 {
-	top: 39%;
+	top: 49%;
 	left: 28%;
 }
 #homepage-hero #star2 {
-	top: 22.5%;
+	top: 62%;
 	left: 68.5%;
 }
 #homepage-hero #star3 {
-	top: 20%;
+	top: 70%;
 	left: 26%;
 }
 #homepage-hero #star4 {
-	top: 32%;
+	top: 42%;
 	left: 61%;
 }
 #homepage-hero #star5 {
-	top: 31%;
+	top: 62%;
 	left: 23%;
 }
 #homepage-hero #star6 {
-	top: 40%;
-	left: 66%;
+	top: 45%;
+	left: 55%;
 }
 #homepage-hero #star7 {
-	top: 13%;
-	left: 67%;
+	top: 58%;
+	left: 69%;
 }
 #homepage-hero #star8 {
-	top: 33%;
+	top: 59%;
 	left: 31.5%;
 }
 
