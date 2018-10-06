@@ -1277,34 +1277,24 @@ hgroup h2.site-description {
 		-webkit-animation-iteration-count: infinite;
 	}
 
+	#homepage-hero .star {
+    background: #fff;
+	}
 	#homepage-hero .star.big {
-		height: 11%;
-		width: 4.3%;
-		-ms-transform: rotate(155deg);
-	/* IE 9 */
-		-webkit-transform: rotate(155deg);
-	/* Safari */
-		transform: rotate(155deg);
+		height: 12px;
+		width: 12px;
+		border-radius: 6px;
 	}
-
 	#homepage-hero .star.medium {
-		height: 8%;
-		width: 3.1%;
-		-ms-transform: rotate(125deg);
-	/* IE 9 */
-		-webkit-transform: rotate(125deg);
-	/* Safari */
-		transform: rotate(125deg);
+		height: 8px;
+		width: 8px;
+		border-radius: 4px;
 	}
-
 	#homepage-hero .star.small {
-		height: 6%;
-		width: 2.35%;
-		-ms-transform: rotate(48deg);
-	/* IE 9 */
-		-webkit-transform: rotate(48deg);
-	/* Safari */
-		transform: rotate(48deg);
+		height: 4px;
+		width: 4px;
+		border-radius: 2px;
+		
 		animation-name: tossing;
 		-webkit-animation-name: tossing;
 		animation-duration: 25s;
