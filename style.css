@@ -1177,8 +1177,8 @@ hgroup h2.site-description {
 	left: 6%;
 	right: 6%;
 	bottom: 8%;
-	background: url('https://2018.edinburgh.wordcamp.org/files/2018/09/hero-waterfall.png') no-repeat top center;
-	background-size: contain;
+	/*background: url('https://2018.edinburgh.wordcamp.org/files/2018/09/hero-waterfall.png') no-repeat top center;
+	background-size: contain;*/
 }
 
 #hero-title {
