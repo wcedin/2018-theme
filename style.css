@@ -1651,38 +1651,49 @@ table.wcpt-schedule td {
 table.wcpt-schedule .wcpt-session-speakers {
 	display: block;
 }
+
 table.wcpt-schedule .wcpt-session-speakers a {
 	font-weight: normal;
 	font-size: 16px;
 }
+
 table.wcpt-schedule .wcpt-session-speakers:before {
 	content: '- ';
 }
 
-table td.wcb-track-track-1,
-table td.wcb-track-track-2 {
-	padding: 10px !Important;
+table.wcpt-schedule td.wcb-track-track-1,
+table.wcpt-schedule td.wcb-track-track-2 {
+	padding: 10px !important;
 }
-table td.wcb-track-track-2 {
+
+table.wcpt-schedule td.wcb-track-track-2 {
 	background: #947a3b;
 	color: #fff;
 }
-table td.wcb-track-track-2 a {
+
+table.wcpt-schedule td.wcb-track-track-2 a {
 	color: #fff;
 }
-table td.wcb-track-track-1 {
+
+table.wcpt-schedule td.wcb-track-track-1 {
 	background: #fff1c9;
 	color: #000;
 }
-table td.wcb-track-track-1 a {
-	color: #000 !important;
+
+table.wcpt-schedule td.wcb-track-track-1 a {
+	color: #000;
 }
 
-td.wcb-favourite-session {
-	background: #629d42 !important;
-	color: #fff !important;
+table.wcpt-schedule td.wcb-favourite-session {
+	background: #629d42;
+	color: #fff;
 }
-
+table.wcpt-schedule td.wcb-favourite-session a {
+		color: #fff;
+}
+table.wcpt-schedule td.wcb-favourite-session a .dashicons {
+	color: #ffea00;
+}
 
 /*--------------------------------------------------------------
 # Speakers
