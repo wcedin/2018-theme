@@ -1630,10 +1630,14 @@ table.tix_tickets_table th {
 /*--------------------------------------------------------------
 # Attendee
 --------------------------------------------------------------*/
+ul.tix-attendee-list {
+	padding-left: 0;
+}
+
 ul.tix-attendee-list li .tix-attendee-name {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	padding-right: 15px;
+	padding-right: 30px;
 	font-size: 18px !important;
 }
 
