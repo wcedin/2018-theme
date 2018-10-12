@@ -907,6 +907,7 @@ body {
 
 footer {
   clear: both;
+  padding-top: 80px;
 }
 
 #main,
@@ -1621,6 +1622,16 @@ table.tix_tickets_table th {
  }
 }
 
+/*--------------------------------------------------------------
+# Attendee
+--------------------------------------------------------------*/
+ul.tix-attendee-list li .tix-attendee-name {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	padding-right: 15px;
+	font-size: 18px !important;
+}
+
 
 /*--------------------------------------------------------------
 # Schedule
@@ -1633,28 +1644,43 @@ table.wcpt-schedule thead {
 	text-transform: uppercase;
 }
 table.wcpt-schedule td {
-	vertical-align: top;
+	vertical-align: middle;
 	padding: 0.5em 1em 0.5em 0;
 	text-align: center;
 }
-table.wcpt-schedule td.wcb-track-one {
-	background-color: #f0faff;
-	padding: .5em .5em;
-}
-table.wcpt-schedule td.wcb-track-two {
-	background-color: #fff0fa;
-	padding: .5em .5em;
-}
-table.wcpt-schedule td.wcb-track-one.wcb-track-two {
-	background-color: #fff;
-	padding: .5em .5em;
-}
 table.wcpt-schedule .wcpt-session-speakers {
 	display: block;
-	font-style: italic;
+}
+table.wcpt-schedule .wcpt-session-speakers a {
+	font-weight: normal;
+	font-size: 16px;
 }
 table.wcpt-schedule .wcpt-session-speakers:before {
 	content: '- ';
+}
+
+table td.wcb-track-track-1,
+table td.wcb-track-track-2 {
+	padding: 10px !Important;
+}
+table td.wcb-track-track-2 {
+	background: #947a3b;
+	color: #fff;
+}
+table td.wcb-track-track-2 a {
+	color: #fff;
+}
+table td.wcb-track-track-1 {
+	background: #fff1c9;
+	color: #000;
+}
+table td.wcb-track-track-1 a {
+	color: #000 !important;
+}
+
+td.wcb-favourite-session {
+	background: #629d42 !important;
+	color: #fff !important;
 }
 
 
