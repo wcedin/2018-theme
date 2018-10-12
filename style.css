@@ -1442,8 +1442,8 @@ input[type="email"],
 textarea {
 	background: #ebebeb;
 	border: none;
-	border-left: 4px solid #b17c19;
-	padding: 0.25rem 0.5rem;
+	border-left: 4px solid #447c8d;
+	padding: .75rem .75rem;
 }
 textarea {
 	max-width: 100%;
