@@ -1483,6 +1483,10 @@ input[type="submit"]:hover {
   animation: rainbow 15s ease infinite;
 }
 
+p#subscribe-email {
+	margin-bottom: 0;
+}
+
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
@@ -1525,9 +1529,9 @@ table.tix_tickets_table {
 }
 
 table.tix_tickets_table tr {
- background: #fbface;
- border: 1px solid #eccd94;
- padding: .35em;
+	background: #fff1c9;
+	border: 1px solid #937b3c;
+	padding: .35em;
 }
 
 table.tix_tickets_table th,
@@ -1548,10 +1552,11 @@ table.tix_tickets_table th {
 }
 
 .tix_tickets_table th {
- background: #d14616;
- color: #fff;
- font-family: 'Montserrat', sans-serif;
- font-weight: 900;
+	background: #447c8d;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: .8em;
 }
 
 .tix_tickets_table .tix-ticket-title {
