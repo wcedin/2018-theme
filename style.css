@@ -1453,6 +1453,10 @@ textarea {
 	max-width: calc(100% - 1.2rem);
 }
 
+#commentform label {
+	display: block;
+}
+
 
 /*--------------------------------------------------------------
 # Buttons
