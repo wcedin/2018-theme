@@ -499,7 +499,6 @@ big {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-
 .main-navigation {
   position: fixed;
   top: 0;
@@ -509,7 +508,6 @@ big {
   background-color: #333333;
   z-index: 999;
 }
-
 .main-navigation ul {
   font-family: "Montserrat", sans-serif;
   font-size: 1.15rem;
@@ -588,10 +586,6 @@ big {
   position: relative;
 }
 
-/* .main-navigation ul > li.menu-item-has-children > a {
-  padding-right: 1rem;
-} */
-
 .main-navigation ul > li.menu-item-has-children > a:after {
   content: '';
   position: absolute;
@@ -641,6 +635,15 @@ big {
   content: '';
   margin-right: 0;
 }
+
+.admin-bar .main-small-navigation {
+  top: 46px;
+}
+
+.admin-bar .main-navigation {
+  margin-top: 32px;
+}
+     
 
 @media (max-width:1260px) {
   .main-navigation ul li.menu-item-has-children:last-child ul {
@@ -1454,6 +1457,15 @@ textarea {
 /*--------------------------------------------------------------
 # Buttons
 --------------------------------------------------------------*/
+#eu-cookie-law input.accept {
+	background: #447c8d;
+	font-weight: 600;
+}
+#eu-cookie-law input.accept:focus,
+#eu-cookie-law input.accept:hover {
+	background: #245c6d;
+	font-weight: 600;
+}
 
 .btn,
 input[type="submit"] {
@@ -1669,6 +1681,12 @@ table.wcpt-schedule .wcpt-session-speakers a {
 table.wcpt-schedule .wcpt-session-speakers:before {
 	content: '- ';
 }
+
+.wcorg-session-description img.avatar {
+  float: right;
+	margin: 0  0 15px 15px;
+}
+
 
 table.wcpt-schedule td.wcb-track-track-1,
 table.wcpt-schedule td.wcb-track-track-2 {
