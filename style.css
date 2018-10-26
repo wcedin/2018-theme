@@ -1685,6 +1685,18 @@ table.wcpt-schedule .wcpt-session-speakers a {
 table.wcpt-schedule .wcpt-session-speakers:before {
 	content: '- ';
 }
+table.wcpt-schedule  .wcb-track-track-2 .wcpt-session-speakers:before {
+	color: #fff;
+}
+
+table.wcpt-schedule .wcb-track-track-1:before,
+.wcb-track-track-2:before {
+	font-style: italic;
+	font-size: .8em;
+}
+table.wcpt-schedule .wcb-track-track-2:before {
+	color: #fff;
+}
 
 .wcorg-session-description img.avatar {
   float: right;
