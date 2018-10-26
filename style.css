@@ -921,15 +921,30 @@ footer {
 }
 
 .site-info {
+	display: block;
+	position: relative;
 	text-align: center;
 	background-image: url('https://2018.edinburgh.wordcamp.org/files/2018/10/landscape-footer.png');
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	height: 190px;
-}
+	}
+	.site-info:before {
+		display: block;
+		content: "";
+		width: 100%;
+		padding-top: 40%;
+	}
+
 .site-info a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
 	display: block;
+}
+.site-info a:last-of-type {
+	top: 30px;
 }
 
 #secondary a.sponsor-logo {
@@ -1312,10 +1327,6 @@ hgroup h2.site-description {
 		left: 45%;
 	}
 
-	.site-info {
-	  height:500px;
-	}
-	
 }
 
 .hero-buttons {
