@@ -943,6 +943,9 @@ footer {
 	left: 0;
 	display: block;
 }
+.site-info a:hover {
+	border-color: transparent;
+}
 .site-info a:last-of-type {
 	top: 30px;
 }
