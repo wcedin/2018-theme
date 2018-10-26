@@ -1673,6 +1673,9 @@ table.wcpt-schedule td {
 	padding: 0.5em 1em 0.5em 0;
 	text-align: center;
 }
+table.wcpt-schedule a:hover {
+	border-color: transparent
+}
 table.wcpt-schedule .wcpt-session-speakers {
 	display: block;
 }
@@ -1685,7 +1688,8 @@ table.wcpt-schedule .wcpt-session-speakers a {
 table.wcpt-schedule .wcpt-session-speakers:before {
 	content: '- ';
 }
-table.wcpt-schedule  .wcb-track-track-2 .wcpt-session-speakers:before {
+table.wcpt-schedule  .wcb-track-track-2 .wcpt-session-speakers:before,
+table.wcpt-schedule  .wcb-track-track-1.wcb-favourite-session .wcpt-session-speakers:before {
 	color: #fff;
 }
 
@@ -1694,7 +1698,8 @@ table.wcpt-schedule .wcb-track-track-1:before,
 	font-style: italic;
 	font-size: .8em;
 }
-table.wcpt-schedule .wcb-track-track-2:before {
+table.wcpt-schedule .wcb-track-track-2:before,
+table.wcpt-schedule .wcb-track-track-1.wcb-favourite-session:before {
 	color: #fff;
 }
 
